@@ -23,6 +23,7 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 # PROGRAM :
+~~~
 azar.html
 
 {% load static %}
@@ -143,7 +144,7 @@ from django.shortcuts import render
   
 def azar(request):
       return render(request,'azar.html')
-
+~~~
 # OUTPUT:
 <img width="1911" height="1031" alt="image" src="https://github.com/user-attachments/assets/ef1a6ba2-262b-4478-9049-40b22111fb3a" />
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/fe833841-b7f6-4ad8-b607-215dd82f53fb" />
